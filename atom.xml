@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://atworking.cn/"/>
-  <updated>2019-05-17T09:10:39.565Z</updated>
+  <updated>2019-05-18T05:02:24.402Z</updated>
   <id>http://atworking.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://atworking.cn/2019/05/17/hello-world/"/>
     <id>http://atworking.cn/2019/05/17/hello-world/</id>
     <published>2019-05-17T06:33:42.750Z</published>
-    <updated>2019-05-17T09:10:39.565Z</updated>
+    <updated>2019-05-18T05:02:24.402Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -39,7 +39,7 @@
     <link href="http://atworking.cn/2019/04/22/Hexo%E5%86%99%E4%BD%9C/"/>
     <id>http://atworking.cn/2019/04/22/Hexo写作/</id>
     <published>2019-04-22T07:31:00.000Z</published>
-    <updated>2019-05-17T09:56:07.081Z</updated>
+    <updated>2019-05-18T05:02:31.345Z</updated>
     
     <content type="html"><![CDATA[<h2 id="环境配置："><a href="#环境配置：" class="headerlink" title="环境配置："></a>环境配置：</h2><a id="more"></a><p><strong>注意:</strong> 必须安装 <a href="http://nodejs.org/" target="_blank" rel="noopener">Node</a>和<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></p><h3 id="安装："><a href="#安装：" class="headerlink" title="安装："></a>安装：</h3><pre><code>$ npm install -g hexo-cli</code></pre><h3 id="初始化："><a href="#初始化：" class="headerlink" title="初始化："></a>初始化：</h3><pre><code>$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install</code></pre><p>新建完成后，指定文件夹的目录如下：</p><pre><code>.├── _config.yml     #配置├── package.json    #包├── scaffolds       #模版├── source          #用户资源|   ├── _drafts|   └── _posts└── themes          #主题</code></pre>]]></content>
     
