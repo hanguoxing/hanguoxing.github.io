@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F05%2F17%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Quick Start Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Create a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Hexo写作]]></title>
-    <url>%2F2019%2F04%2F22%2FHexo%E5%86%99%E4%BD%9C%2F</url>
-    <content type="text"><![CDATA[环境配置： 注意: 必须安装 Node和Git 安装：$ npm install -g hexo-cli 初始化：$ hexo init &lt;folder&gt; $ cd &lt;folder&gt; $ npm install 新建完成后，指定文件夹的目录如下： . ├── _config.yml #配置 ├── package.json #包 ├── scaffolds #模版 ├── source #用户资源 | ├── _drafts | └── _posts └── themes #主题]]></content>
+    <title><![CDATA[VSCODE-C++环境配置]]></title>
+    <url>%2F2019%2F05%2F20%2FVSCODE-C-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[七牛云图床快捷方式： 粘贴图片路径上传：CTRL+ALT+P 直接选择图片上传：CTRL+ALT+O 截屏图片上传： CTRL+ALT+V VSCODE下载:VSCODE下载地址 mingw64离线包下载：mingw64离线包下载： 环境配置：mingw64\bin配置到path变量 vscode 安装插件! 选择c++源码文件夹,新建.vscode目录 配置“launch.json” 1234567891011121314151617181920212223242526272829&#123; // 使用 IntelliSense 了解相关属性。 // 悬停以查看现有属性的描述。 // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387 "version": "0.2.0", "configurations": [ &#123; "name": "(gdb) Launch", // 配置名称，将会在启动配置的下拉菜单中显示 "type": "cppdbg", "request": "launch", "program": "$&#123;workspaceRoot&#125;/$&#123;fileBasenameNoExtension&#125;.exe",// 将要进行调试的程序的路径 "args": [], // 程序调试时传递给程序的命令行参数，一般设为空即可 "stopAtEntry": false, // 设为true时程序将暂停在程序入口处，一般设置为false "cwd": "$&#123;workspaceRoot&#125;", // 调试程序时的工作目录，一般为$&#123;workspaceRoot&#125;即代码所在目录 "environment": [], "externalConsole": true, // 调试时是否显示控制台窗口，一般设置为true显示控制台 "MIMode": "gdb", "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe", //注意这里要与MinGw的路径对应 "setupCommands": [ &#123; "description": "Enable pretty-printing for gdb", "text": "-enable-pretty-printing", "ignoreFailures": true &#125; ], "preLaunchTask": "g++", // 调试会话开始前执行的任务，一般为编译程序，c++为g++, c为gcc &#125; ]&#125; 配置tasks.json 1234567891011121314151617&#123; "version": "2.0.0", "command": "g++", "args": ["-g","$&#123;file&#125;","-o","$&#123;fileBasenameNoExtension&#125;.exe"], // 编译命令参数 "problemMatcher": &#123; "owner": "cpp", "fileLocation": ["relative", "$&#123;workspaceRoot&#125;"], "pattern": &#123; "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$", "file": 1, "line": 2, "column": 3, "severity": 4, "message": 5 &#125; &#125; &#125; 配置”settings.json” 12345678&#123; "files.exclude": &#123; "**/.classpath": true, "**/.project": true, "**/.settings": true, "**/.factorypath": true &#125;&#125;]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>VSCODE</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>教程</tag>
+        <tag>IDE VSCODE</tag>
       </tags>
   </entry>
 </search>

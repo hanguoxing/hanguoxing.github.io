@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://atworking.cn/"/>
-  <updated>2019-05-18T05:02:24.402Z</updated>
+  <updated>2019-05-20T04:17:33.473Z</updated>
   <id>http://atworking.cn/</id>
   
   <author>
@@ -17,44 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://atworking.cn/2019/05/17/hello-world/"/>
-    <id>http://atworking.cn/2019/05/17/hello-world/</id>
-    <published>2019-05-17T06:33:42.750Z</published>
-    <updated>2019-05-18T05:02:24.402Z</updated>
+    <title>VSCODE-C++环境配置</title>
+    <link href="http://atworking.cn/2019/05/20/VSCODE-C-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://atworking.cn/2019/05/20/VSCODE-C-环境配置/</id>
+    <published>2019-05-20T02:51:28.000Z</published>
+    <updated>2019-05-20T04:17:33.473Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo写作</title>
-    <link href="http://atworking.cn/2019/04/22/Hexo%E5%86%99%E4%BD%9C/"/>
-    <id>http://atworking.cn/2019/04/22/Hexo写作/</id>
-    <published>2019-04-22T07:31:00.000Z</published>
-    <updated>2019-05-18T05:02:31.345Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="环境配置："><a href="#环境配置：" class="headerlink" title="环境配置："></a>环境配置：</h2><a id="more"></a><p><strong>注意:</strong> 必须安装 <a href="http://nodejs.org/" target="_blank" rel="noopener">Node</a>和<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a></p><h3 id="安装："><a href="#安装：" class="headerlink" title="安装："></a>安装：</h3><pre><code>$ npm install -g hexo-cli</code></pre><h3 id="初始化："><a href="#初始化：" class="headerlink" title="初始化："></a>初始化：</h3><pre><code>$ hexo init &lt;folder&gt;$ cd &lt;folder&gt;$ npm install</code></pre><p>新建完成后，指定文件夹的目录如下：</p><pre><code>.├── _config.yml     #配置├── package.json    #包├── scaffolds       #模版├── source          #用户资源|   ├── _drafts|   └── _posts└── themes          #主题</code></pre>]]></content>
+    <content type="html"><![CDATA[<p><code>七牛云图床快捷方式：粘贴图片路径上传：CTRL+ALT+P直接选择图片上传：CTRL+ALT+O截屏图片上传： CTRL+ALT+V</code><br><a id="more"></a></p><h3 id="VSCODE下载"><a href="#VSCODE下载" class="headerlink" title="VSCODE下载:"></a>VSCODE下载:</h3><p><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCODE下载地址</a>  </p><h3 id="mingw64离线包下载："><a href="#mingw64离线包下载：" class="headerlink" title="mingw64离线包下载："></a>mingw64离线包下载：</h3><p><a href="https://sourceforge.net/projects/mingw-w64/files/?source=navbar" target="_blank" rel="noopener">mingw64离线包下载：</a></p><h3 id="环境配置："><a href="#环境配置：" class="headerlink" title="环境配置："></a>环境配置：</h3><p>mingw64\bin配置到path变量</p><p>vscode 安装插件!  </p><p><img src="http://mding.atworking.cn/2019-05-20-11-59-03.png" alt="C++插件"></p><p>选择c++源码文件夹,新建.vscode目录 </p><p>配置“launch.json”</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    // 使用 IntelliSense 了解相关属性。 </span><br><span class="line">    // 悬停以查看现有属性的描述。</span><br><span class="line">    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span><br><span class="line">    "version": "0.2.0",</span><br><span class="line">    "configurations": [</span><br><span class="line">        &#123;</span><br><span class="line">            "name": "(gdb) Launch", // 配置名称，将会在启动配置的下拉菜单中显示  </span><br><span class="line">            "type": "cppdbg",</span><br><span class="line">            "request": "launch",</span><br><span class="line">            "program": "$&#123;workspaceRoot&#125;/$&#123;fileBasenameNoExtension&#125;.exe",// 将要进行调试的程序的路径</span><br><span class="line">            "args": [], // 程序调试时传递给程序的命令行参数，一般设为空即可</span><br><span class="line">            "stopAtEntry": false, // 设为true时程序将暂停在程序入口处，一般设置为false</span><br><span class="line">            "cwd": "$&#123;workspaceRoot&#125;", // 调试程序时的工作目录，一般为$&#123;workspaceRoot&#125;即代码所在目录   </span><br><span class="line">            "environment": [],</span><br><span class="line">            "externalConsole": true, // 调试时是否显示控制台窗口，一般设置为true显示控制台</span><br><span class="line">            "MIMode": "gdb",</span><br><span class="line">            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe", //注意这里要与MinGw的路径对应</span><br><span class="line">            "setupCommands": [</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="attr">"description"</span>: <span class="string">"Enable pretty-printing for gdb"</span>,</span><br><span class="line">                    <span class="attr">"text"</span>: <span class="string">"-enable-pretty-printing"</span>,</span><br><span class="line">                    <span class="attr">"ignoreFailures"</span>: <span class="literal">true</span></span><br><span class="line">                &#125;</span><br><span class="line">            ],</span><br><span class="line">            "preLaunchTask": "g++", // 调试会话开始前执行的任务，一般为编译程序，c++为g++, c为gcc  </span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>配置tasks.json</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#123; </span><br><span class="line">    <span class="attr">"version"</span>: <span class="string">"2.0.0"</span>, </span><br><span class="line">    <span class="attr">"command"</span>: <span class="string">"g++"</span>, </span><br><span class="line">    "args": ["-g","$&#123;file&#125;","-o","$&#123;fileBasenameNoExtension&#125;.exe"], // 编译命令参数 </span><br><span class="line">    "problemMatcher": &#123; </span><br><span class="line">        "owner": "cpp", </span><br><span class="line">        "fileLocation": ["relative", "$&#123;workspaceRoot&#125;"], </span><br><span class="line">        "pattern": &#123; </span><br><span class="line">            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$", </span><br><span class="line">            "file": 1, </span><br><span class="line">            "line": 2, </span><br><span class="line">            "column": 3, </span><br><span class="line">            "severity": 4, </span><br><span class="line">            "message": 5 </span><br><span class="line">            &#125; </span><br><span class="line">        &#125; </span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p>配置”settings.json”</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"files.exclude"</span>: &#123;</span><br><span class="line">        <span class="attr">"**/.classpath"</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">"**/.project"</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">"**/.settings"</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">"**/.factorypath"</span>: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;环境配置：&quot;&gt;&lt;a href=&quot;#环境配置：&quot; class=&quot;headerlink&quot; title=&quot;环境配置：&quot;&gt;&lt;/a&gt;环境配置：&lt;/h2&gt;
+      &lt;p&gt;&lt;code&gt;七牛云图床快捷方式：
+粘贴图片路径上传：CTRL+ALT+P
+直接选择图片上传：CTRL+ALT+O
+截屏图片上传： CTRL+ALT+V&lt;/code&gt;&lt;br&gt;
     
     </summary>
     
-      <category term="Hexo" scheme="http://atworking.cn/categories/Hexo/"/>
+      <category term="VSCODE" scheme="http://atworking.cn/categories/VSCODE/"/>
     
     
-      <category term="Hexo" scheme="http://atworking.cn/tags/Hexo/"/>
-    
-      <category term="教程" scheme="http://atworking.cn/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="IDE VSCODE" scheme="http://atworking.cn/tags/IDE-VSCODE/"/>
     
   </entry>
   
